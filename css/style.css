@@ -317,7 +317,10 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
 	background: url(../img/bg1.jpg) no-repeat top center;
 }
 
@@ -377,8 +380,11 @@ hr {
 .who {
   width:100%;
   position:relative;
-  
   background: url(../img/bg2.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
 }
 
 #who.who {
